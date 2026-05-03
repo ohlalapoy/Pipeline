@@ -52,3 +52,7 @@ The Python script in TaskC parses the raw compiler warning log and converts it i
 ---
 ## 3. What is the advantage to use LFS?
 
+Git LFS cooms to support when you have to push or pull a large file changes to the repo e.g. video or any files more than 100MB,
+instead of pulling everything but git will refer to its pointer which is reduce time and be able to amend what it really meeds.
+
+
