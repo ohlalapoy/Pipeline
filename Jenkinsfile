@@ -15,7 +15,7 @@ pipeline {
             script { env.TIMESTAMP = new Date().format("yyyyMMdd-HHmmss")}
             
             sh ''' 
-            cp /home/ubuntu/Templates/Doxyfile .
+            cp $HOME/Templates/Doxyfile .
             doxygen Doxyfile
             
             ''' 
@@ -27,7 +27,7 @@ pipeline {
             steps {
                 sh '''
                 tar -czf doc-${TIMESTAMP}.tar.gz -C docs .
-                cp doc-${TIMESTAMP}.tar.gz /home/ubuntu/TarFile/
+                cp doc-${TIMESTAMP}.tar.gz $HOME/TarFile/
                 '''
                 archiveArtifacts artifacts: "doc-${TIMESTAMP}.tar.gz"
             }
