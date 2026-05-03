@@ -22,8 +22,6 @@
 
 The Doxygen-generated HTML documentation was successfully produced, including:
 ![alt text](Doxygen-Demo.png)
-
-
 ![alt text](Demo2.png)
 
 ---
