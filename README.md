@@ -55,4 +55,9 @@ The Python script in TaskC parses the raw compiler warning log and converts it i
 Git LFS comes to support when you have to push or pull a large file changes to the repo e.g. video or any files more than 100MB,
 instead of pulling everything but git will refer to its pointer which is reduce time and be able to amend what it really needs.
 
+---
+## 4. How to adjust this repository to support LFS?
+Refer : https://github.com/git-lfs/git-lfs#installing
 
+from my understanding, we just have to mark them as track to what we need to skip instead of directly pull them. 
+$ git lfs track "*.mp4" or if you don't need lfs, you can simply add unnecessarily to .gitignore or separate large file to different location.
