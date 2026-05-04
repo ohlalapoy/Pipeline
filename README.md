@@ -1,4 +1,4 @@
-# Alstom Assessment 2026 #
+# Assessment 2026 #
 
 **Author:** Thanarat Ponpanasak
 
@@ -13,7 +13,7 @@
 
 **Steps:**
 
-1. Navigate through **Alstom Assignment 2026** → Click **TaskB**
+1. Navigate through **Assignment 2026** → Click **TaskB**
 ![alt text](Jenkinsproject.png)
 2. After the job has been completed successfully, `doc.tar.gz` will appear and be ready to download.
 ![alt text](TaskB.png)
